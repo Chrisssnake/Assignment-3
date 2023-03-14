@@ -89,7 +89,7 @@ public class AutocompleteGUI extends JFrame {
     private static final String SEARCH_URL = "https://www.google.com/search?q=";
 
     // Display top k results
-    private int k=1;
+    private final int k;
 
     // Indicates whether to display weights next to query matches
     private boolean displayWeights = true;
