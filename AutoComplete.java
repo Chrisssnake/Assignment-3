@@ -22,6 +22,8 @@ public class AutoComplete {
 
     /**
      * Returns all terms that start with the given prefix, in descending order of weight.
+     * @param prefix is the input string from user
+     * @return matches, an array of matching terms to the passed prefix
      */
     public Term[] allMatches(String prefix) {
         if (prefix == null) {
