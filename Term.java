@@ -8,13 +8,13 @@
  * 
  * 	Immutable data type that represents an autocomplete term.
  * 
- * 			* Supports comparing terms by three different orders
+ * 		* Supports comparing terms by three different orders
  *  
- * 				1.) lexicographic order by query string (natural order).
+ * 			1.) lexicographic order by query string (natural order).
  * 
- * 				2.) descending order by weight (alternate order).
+ * 			2.) descending order by weight (alternate order).
  * 
- * 				3.) lexicographic order by weight using only the first 
+ * 			3.) lexicographic order by weight using only the first 
  * 					character (family of alternate orderings).
  */
 
