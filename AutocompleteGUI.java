@@ -177,7 +177,7 @@ public class AutocompleteGUI extends JFrame {
         private static final long serialVersionUID = 1L;
         
         private final JTextField searchText;      // the search bar
-        private Autocomplete auto;                // the Autocomplete object 
+        private AutoComplete auto;                // the Autocomplete object 
         private String[] results = new String[k]; // an array of matches
         //// private JList<String> suggestions;   // a list of autocomplete matches (Java 7)
         private JList suggestions;                // a list of autocomplete matches (Java 6)
@@ -245,7 +245,7 @@ public class AutocompleteGUI extends JFrame {
             }
 
             // Create the autocomplete object
-            auto = new Autocomplete(terms);
+            auto = new AutoComplete(terms);
 
             GroupLayout layout = new GroupLayout(this);
             this.setLayout(layout);
