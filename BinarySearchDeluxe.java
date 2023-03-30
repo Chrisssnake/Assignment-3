@@ -1,3 +1,17 @@
+/*  BinarySearchDeluxue
+ *  
+ * 	@author Reilly Downing
+ * 	@author Christian Patterson
+ * 	@author Isaac Rush
+ * 	@author Patrick Hafner
+ * 	@author Grady Bartlett 
+ * 
+ * 	Deals with binary searching a sorted array that contains 
+ * 		more than one key equal to the search key
+ * 
+ * 			*returns indexes of first and last key 
+ */
+
 import java.util.Comparator;
 
 public class BinarySearchDeluxe {
