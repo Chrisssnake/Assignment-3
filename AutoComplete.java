@@ -1,3 +1,23 @@
+/* 	AutoComplete
+ * 
+ * 	Dependencies: Term.java, BinarySearchDeluxe.java
+ *  
+ * 	@author Reilly Downing
+ * 	@author Christian Patterson
+ * 	@author Isaac Rush
+ * 	@author Patrick Hafner
+ * 	@author Grady Bartlett 
+ * 
+ * 	Data type that provides AutoCopmlete functionality for a 
+ * 		given set of string and weights.
+ * 
+ * 			* sorts terms in lexiographic order
+ * 
+ * 			* Queries strings that start with a given prefix
+ * 
+ * 			* sorts terms in descending order by weight
+ */
+
 import java.util.Arrays;
 
 public class AutoComplete {
