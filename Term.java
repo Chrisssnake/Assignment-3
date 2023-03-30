@@ -1,3 +1,23 @@
+/*  Term
+ *  
+ * 	@author Reilly Downing
+ * 	@author Christian Patterson
+ * 	@author Isaac Rush
+ * 	@author Patrick Hafner
+ * 	@author Grady Bartlett 
+ * 
+ * 	Immutable data type that represents an autocomplete term.
+ * 
+ * 			* Supports comparing terms by three different orders
+ *  
+ * 				1.) lexicographic order by query string (natural order).
+ * 
+ * 				2.) descending order by weight (alternate order).
+ * 
+ * 				3.) lexicographic order by weight using only the first 
+ * 					character (family of alternate orderings).
+ */
+
 import java.util.Comparator;
 
 public class Term implements Comparable<Term> {
